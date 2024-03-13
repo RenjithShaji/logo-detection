@@ -3,8 +3,8 @@
 This Python script demonstrates a method for detecting image similarity using the pre-trained VGG16 model for feature extraction and EasyOCR for text extraction.
 
 ****Dependencies****
-requests: For making HTTP requests.
-BeautifulSoup: For parsing HTML content.
+`requests: For making HTTP requests.
+`BeautifulSoup: For parsing HTML content.
 tensorflow: TensorFlow library for machine learning.
 numpy: NumPy library for numerical operations.
 matplotlib: Matplotlib library for visualization.

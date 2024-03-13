@@ -1,4 +1,3 @@
-# logo-detection
 # Image Similarity Detection using VGG16 and EasyOCR
 
 This Python script demonstrates a method for detecting image similarity using the pre-trained VGG16 model for feature extraction and EasyOCR for text extraction.

@@ -169,7 +169,7 @@ def calculate_image_similarity(image1_path, image2_path):
 
 if __name__ == "__main__":
     # Accept input for brand logo name and test image path
-    keyword = input("Enter the brand logo name: ")
+    keyword = input("Enter the brand with category name: ")
     test_image_path = input("Enter the path to the test image: ")
 
     # Extract text from the test image
@@ -197,11 +197,11 @@ if __name__ == "__main__":
 
             # Determine prediction based on max similarity score
             if max_similarity_score > 0.75:
-                prediction = "The image is Real...!!!"
+                prediction = "The logo is Real...!!!"
             else:
-                prediction = "The image is fake..!!!"
+                prediction = "The logo is fake..!!!"
         else:
-            prediction = "No similar images found."
+            prediction = "No similar logo found."
 
         # Display the test image with prediction
         plt.figure(figsize=(8, 6))
@@ -210,7 +210,7 @@ if __name__ == "__main__":
         plt.axis('off')
         plt.show()
     else:
-        print("No images found for the given keyword.")
+        print("No logo found for the given keyword.")
 
     # Function to delete downloaded images
 def delete_downloaded_images(image_paths):
